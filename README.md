@@ -1,15 +1,8 @@
-#2024 OSSPrac 강의 자료
+# 2024-1 OSSPrac 강의 자료
+-Craated by SJ Lee
+-Date: 2024. 4. 3.
 
-- Created by SJ LEE
-- Date: 2024. 4. 1.
+# MLAC
+Machine Learning Access Control
 
-Fetch & Merge
-
-A
-B
-C
-D
-F
-E
-G
-H
+MLAC example
