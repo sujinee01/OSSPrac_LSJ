@@ -5,6 +5,6 @@
 # MLAC
 Machine Learning Access Control
 
-MLAC example
+MLAC(Machine Learning Access Control) example
 
 abc
