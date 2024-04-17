@@ -63,8 +63,61 @@
             </tr>
         </table>
     <h3 id="heading">팀슬로건 : 아 자!</h3>
-    <h2 class="headings">이 부분에 스타일을 적용합니다.</h2>
-    <p>클래스 선택자를 이용하여 스타일을 적용할 HTML 요소들을 한 번에 선택할 수 있습니다.</p>
-    <h3 class="headings">이 부분에도 같은 스타일을 적용합니다.</h3>
+    
+    <!-- 양식:text, name:search로 설정 -->
+    <form action="/examples/media/request.php">
+
+    사 용 자   : <input type="text" name="username"><br>
+
+    비밀번호 : <input type="password" name="password">
+
+    </form>
+
+    <!--   팀프로젝트 할 때 필요, 라디오버튼 : 하나만 체크 가능   -->
+
+    <h1>라디오 버튼</h1>
+	  <p>다음 중 가장 재밌고 내용이 알찬 강좌를 하나만 골라주세요.</p>
+	  <form>
+		  <input type="radio" name="lecture" value="html" checked> HTML <br>
+		  <input type="radio" name="lecture" value="css"> CSS <br>
+		  <input type="radio" name="lecture" value="java"> JAVA <br>
+		  <input type="radio" name="lecture" value="cpp"> C++
+	  </form>
+    <br><br>
+    
+    <!--  체크박스(복수 선택 가능), disabled : 선택 불가능하게   -->
+    <p>다음 중 가장 재밌고 내용이 알찬 강좌를 모두 골라주세요.</p>
+    <form>
+
+    <input type="checkbox" name="lecture" value="html" checked> HTML <br>
+
+    <input type="checkbox" name="lecture" value="css"> CSS <br>
+
+    <input type="checkbox" name="lecture" value="java"> JAVA <br>
+
+    <input type="checkbox" name="lecture" value="cpp" disabled> C++
+
+    </form>
+
+    <br><br>
+
+    
+    <form>
+
+    <input type="file" name="upload_file" accept="image/*">
+
+    </form>  
+
+    <h1>선택 입력</h1>
+	  <p>다음 중 여러분이 가장 좋아하는 과일을 골라주세요.</p>
+	  <form>
+		   <select name="fruit">
+			     <option value="apple"> 사과
+			     <option value="orange" selected> 귤
+			     <option value="strawberry"> 딸기
+			     <option value="peach"> 복숭아
+		   </select>
+	   </form>
+
   </body>
 </html>
